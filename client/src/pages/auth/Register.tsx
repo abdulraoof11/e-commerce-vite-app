@@ -1,8 +1,9 @@
+import RegisterForm from '@/components/auth/registerForm'
 import React from 'react'
 
 const Register = () => {
   return (
-    <div>Register</div>
+    <div><RegisterForm/></div>
   )
 }
 
