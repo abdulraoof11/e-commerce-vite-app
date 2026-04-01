@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Production build artifacts
+dist/
+build/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Vite-specific files (already in node_modules by default, but good to be explicit)
+.vite/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE configuration files (optional, depending on your IDE)
+.idea/
+.vscode/
+*.suo
+*.user
+*.cas
+*.sap
+
+# MongoDB specific files (if any are generated locally)
+.mongo/
+
+# Optional: if you have separate client and server folders and want to ignore their respective node_modules and build folders regardless of location
+# client/node_modules/
+# server/node_modules/
+# client/dist/
+# server/dist/
